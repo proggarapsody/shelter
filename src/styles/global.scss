@@ -1,0 +1,141 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.site-container {
+  overflow: hidden;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+.site-container {
+  width: 100%;
+  height: 100%;
+}
+
+.container {
+  max-width: 1200px;
+  padding: 0 40px;
+
+  margin: 0 auto;
+}
+
+svg {
+  width: fit-content;
+  height: fit-content;
+}
+
+a {
+  all: unset;
+  cursor: pointer;
+}
+
+ul,
+li {
+  all: unset;
+}
+
+h2 {
+  font-family: 'Georgia';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 44px;
+  line-height: 130%;
+  letter-spacing: 0.06em;
+}
+
+h3 {
+  font-family: 'Georgia';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 35px;
+  line-height: 130%;
+  letter-spacing: 0.06em;
+}
+
+h4 {
+  font-family: 'Georgia';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 115%;
+  letter-spacing: 0.06em;
+}
+
+h5 {
+  font-family: 'Georgia';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 110%;
+  letter-spacing: 0.06em;
+}
+
+p {
+  font-family: 'Arial';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 160%;
+  letter-spacing: 0.06em;
+}
+
+html:root {
+  --color-primary: #f1cdb3;
+  --color-primary-light: #fddcc4;
+  --color-light-s: #fafafa;
+  --color-light-l: #f6f6f6;
+  --color-light-xl: #ffffff;
+
+  --color-dark-s: #cdcdcd;
+  --color-dark-m: #b2b2b2;
+  --color-dark-l: #545454;
+  --color-dark-xl: #4c4c4c;
+  --color-dark-2xl: #444444;
+  --color-dark-3xl: #292929;
+}
+
+@media (max-width: 1279px) {
+  .container {
+    max-width: 1200px;
+    padding: 0 30px;
+    margin: 0 auto;
+  }
+}
+@media (max-width: 768px) {
+  .container {
+    max-width: 768px;
+    padding: 0 30px;
+    margin: 0 auto;
+  }
+}
+
+@media (max-width: 440px) {
+  h3 {
+    font-family: 'Georgia';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 130%;
+  }
+  p {
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 160%;
+  }
+  h4 {
+    font-family: 'Georgia';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 110%;
+  }
+  .container {
+    max-width: 300px;
+    padding: 0 10px;
+    margin: 0 auto;
+  }
+}

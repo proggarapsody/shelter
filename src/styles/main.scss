@@ -1,0 +1,15 @@
+//global styles import
+@import 'normalize';
+@import 'global';
+@import '../../node_modules/swiper/swiper-bundle.min.css';
+//pages import
+@import 'pages/pets';
+@import 'pages/index';
+
+//components import
+@import 'components/button';
+@import 'components/header';
+@import 'components/footer';
+@import 'components/pet-card';
+@import 'components/paginaton';
+@import 'components/modal';

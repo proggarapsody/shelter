@@ -1,0 +1,19 @@
+.pets {
+  &__content {
+    display: flex;
+    gap: 40px;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 60px;
+    flex-direction: column;
+  }
+  & h3 {
+    white-space: nowrap;
+    text-align: center;
+  }
+  &__page-title {
+    margin-bottom: 45px;
+  }
+}

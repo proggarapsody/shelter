@@ -1,0 +1,48 @@
+button {
+  all: unset;
+  font-family: 'Georgia';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 130%;
+}
+
+.button {
+  background: var(--color-primary);
+  border-radius: 100px;
+  transition: background 0.2s linear;
+  padding: 15px 45px;
+  cursor: pointer;
+  font-family: 'Georgia';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 130%;
+
+  &:hover {
+    background: var(--color-primary-light);
+    transition: background 0.2s linear;
+  }
+}
+
+.button--outline {
+  border: 2px solid var(--color-primary);
+  box-sizing: border-box;
+  border-radius: 100px;
+  padding: 15px 45px;
+  transition: background 0.2s linear, border-color 0.2s linear;
+  cursor: pointer;
+  &:hover {
+    background: var(--color-primary-light);
+    transition: background 0.2s linear, border-color 0.2s linear;
+    border-color: transparent;
+  }
+}
+
+@media (max-width: 1280px) {
+}
+@media (max-width: 767px) {
+}
+
+@media (max-width: 320px) {
+}
